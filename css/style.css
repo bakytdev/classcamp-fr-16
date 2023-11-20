@@ -621,3 +621,97 @@ body {
 }
 
 /*offer end*/
+
+
+/*what start*/
+#what {
+    background: #121118;
+}
+
+.what-block {
+    height: 433px;
+    border-radius: 30px;
+    background: #1D1B24;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.what {
+    display: flex;
+    justify-content: center;
+}
+
+.what-block h1 {
+    color: #FFF;
+    font-size: 63px;
+    font-weight: 400;
+}
+
+.what-block p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.what-block button {
+    background: #FF4343;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 23px;
+    font-weight: 400;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #FF4343;
+}
+
+.what-block button:hover {
+    background: transparent;
+    border: 2px solid #FF4343;
+}
+
+.what-block button ion-icon {
+    padding-left: 15px;
+}
+
+/*what end*/
+
+/*can start*/
+#can {
+    background: url("../img/can.png") no-repeat center/cover;
+    min-height: 60vh;
+}
+
+.can h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 48px;
+    width: 701px;
+    margin: 0 auto;
+}
+
+.can p {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.can {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.can-bg{
+    background: linear-gradient(180deg, #1D1B24 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+/*can end*/
