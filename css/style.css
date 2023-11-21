@@ -710,8 +710,168 @@ body {
     min-height: 60vh;
 }
 
-.can-bg{
+.can-bg {
     background: linear-gradient(180deg, #1D1B24 0%, rgba(0, 0, 0, 0.00) 100%);
 }
 
 /*can end*/
+
+/*block start*/
+#block {
+    background: #0A0A0A;
+    padding: 80px 0;
+}
+
+
+.block-man-text h3 {
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 18px;
+}
+
+.block-man-text h5 {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.block-man-text h5 ion-icon {
+    font-size: 23px;
+    padding-right: 5px;
+}
+
+.block-man-text {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.block-man {
+    position: relative;
+    width: 40%;
+}
+
+.block-title h4 {
+    color: #95FEC1;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 30px 0 17px 0;
+}
+
+.block-title h2 {
+    color: #FFF;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 90%;
+    padding-bottom: 23px;
+}
+
+.block-title p {
+    width: 90%;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.block-title a {
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.block-title a ion-icon {
+    font-size: 23px;
+    padding-left: 15px;
+}
+
+.block-general {
+    width: 48%;
+    display: flex;
+}
+
+.block-man img {
+    width: 100%;
+}
+
+.block-title {
+    width: 60%;
+    background: #8be8a9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.block h1 {
+    color: #FFF;
+    font-size: 58px;
+    padding-bottom: 100px;
+    font-weight: 400;
+}
+
+.block-mans {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*block end*/
+
+/*footer start*/
+#footer {
+    background: #000;
+    padding: 120px 0;
+}
+
+.footer-nav h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 48px;
+}
+
+.footer-nav a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.footer-nav a:hover {
+    color: royalblue;
+    text-decoration-line: underline;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icons a {
+    font-size: 30px;
+    color: white;
+    padding: 0 8px;
+}
+
+.footer-icons a:hover {
+    color: royalblue;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/*footer end*/
